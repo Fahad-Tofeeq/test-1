@@ -1,44 +1,87 @@
 body{
     overflow:hidden;
     overflow-y: auto;
+    
 }
+
+
+
+
+
+
+
 
 
 
 
 
 .top-nav-bar-wrapper {
-    background-color: aquamarine!important;
-    padding: 0px;
-   
+   background-color: aquamarine!important;
+   padding: 0px;
+  
 }
-.top-nav-bar-wrapper ul li p{
-    padding-left: 13rem;
-    margin: 0px;
-    color: #fff;
+.top-nav-bar-wrapper ul li a{
+   padding-left: 13rem;
+   margin: 0px;
+   color: #fff;
 }
 .top-nav-bar-wrapper span{
-   padding-right: 13rem;
-   color: #fff!important;
+  padding-right: 13rem;
+  color: #fff!important;
 }
 
-.bottom-nav-bar-wrapper{
-    width: 100%;
-    background-color:transparent;
+
+
+
+ 
+.search-bar-wrapper img{
+width: 139px;
+height: 76px;
 }
-.bottom-nav-bar-wrapper .new-inner-1 {
-   width: 100%;
+.search-bar-wrapper form{
+   padding-right: 140px;
    }
-.bottom-nav-bar-wrapper .new-inner-1 a{
-    
-    padding-left: 16rem;
- }
-.bottom-nav-bar-wrapper .new-inner-1 img{
-    width: 50px!important;
-}
-.bottom-nav-bar-wrapper .navbar-nav{
-    width: 50%;
-}
+
+   .search-bar-wrapper form ul li{
+      padding: 4px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      list-style-type: none;
+      width: 211px;
+     }
+     .search-bar-wrapper form ul li a{
+      text-decoration: none;
+      color: black;
+      
+     }
+   .search-bar-wrapper .navbar-expand-lg a{
+      color:#222;
+      
+       }
+       .search-bar-wrapper form ul li a:hover{
+  
+         color: rgb(15, 184, 127);
+         
+        }
+       .search-bar-wrapper .navbar-expand-lg .container-fluid{
+           margin-left: 24px;
+           
+            }
+       .search-bar-wrapper .navbar-collapse ul.navbar-nav li.nav-item  a{
+           color: #fff;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
 .hero-class img{
     height: 700px;
 }
@@ -105,7 +148,7 @@ body{
  }
 
  .routine-check-up-wrapper {
-    height: 500px;
+    height: 522px;
  }
  .routine-check-up-wrapper .images-section .main-image img{
     width: 602px;
@@ -162,11 +205,11 @@ body{
     background-color: rgb(241, 240, 240);
  }
 
- .social-links-section .card{
+ .social-links-section .new-card{
     margin-left: 243px;
     background-color:  rgb(241, 240, 240)!important;
  }
- .social-links-section .card h5:hover{
+ .social-links-section .new-card h5:hover{
     color: aquamarine;
  }
  .new-img-sec img{
@@ -289,16 +332,67 @@ body{
    background-color:rgb(241, 239, 239) ;
 }
 .contact-section .main-wrapper .card-body button{
-   margin-left: 26px;
+   
     margin-top: 19px;
     background-color: green;
-    width: 152px;
+    width: 172px;
     height: 42px;
     border-radius: 34px;
 }
+.contact-section a{
+   text-decoration: none;
+   
+}
+.patient-openion ul li{
+   list-style-type: none;
+}
+
+.publishment-article img{
+   width: 286px;
+   height: 186px;
+   border-radius: 12px;
+}
+
+.publishment-article .col-md-4 .card h6:hover{
+   color: aquamarine;
+}
+.publishment-article .col-md-4  button{
+   position: relative;
+    bottom: 198px;
+    left: 163px;
+    background-color: aquamarine;
+    height: 33px;
+    border-radius: 18px;
+    width: 111px;
+    border-style: none;
+}
+.publishment-article .col-md-4  button:hover{
+   border: 1px solid ;
+   border-radius: 18px;
+   
+   outline: 0;
+}
+
+
+footer .footer ul li{
+   list-style-type: none;
+   color: #fff;
+}
+footer .footer ul li:hover{
+   color: #222;
+}
+footer .footer .col-md-3 .card{
+   border-radius: 12px;
+   
+}
+footer .footer .col-md-3:nth-child(4) ul li{
+   
+   color: #222;
+}
+
+
 
  
-
 
  
 
@@ -317,6 +411,7 @@ body{
  .container{
     width: 900px;
     margin: 0 auto;
+   
     
  }
  
