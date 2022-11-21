@@ -171,7 +171,10 @@
 <div style="height:490px ;" class="images-section">
   <div class="container-fluid">
 <div class="main-image">
+  
+
 <img src="./asserts/img/med main img 1.jpg" alt="">
+
 </div><!-- /.main-image -->
 
 <div class="sec-images d-flex">
@@ -390,7 +393,7 @@
             <p class="card-text">cardiologist</p>
             </div><!-- /.text-part -->
             <div class="click-1 d-flex">
-              <a href="#" class="btn btn-primary">View All</a>
+              <a href="https://www.mass.gov/check-a-physician-profile-findmydoctormassgov" class="btn btn-primary">View All</a>
             </div><!-- /.click-1 -->
             
           </div>
@@ -408,7 +411,7 @@
           <p class="card-text">cardiologist</p>
           </div><!-- /.text-part -->
           <div class="click-1 d-flex">
-            <a href="#" class="btn btn-primary">View All</a>
+            <a href="https://www.mass.gov/check-a-physician-profile-findmydoctormassgov" class="btn btn-primary">View All</a>
           </div><!-- /.click-1 -->
           
         </div>
@@ -426,7 +429,7 @@
         <p class="card-text">cardiologist</p>
         </div><!-- /.text-part -->
         <div class="click-1 d-flex">
-          <a href="#" class="btn btn-primary">View All</a>
+          <a href="https://www.mass.gov/check-a-physician-profile-findmydoctormassgov" class="btn btn-primary">View All</a>
         </div><!-- /.click-1 -->
         
       </div>
@@ -473,7 +476,17 @@
           <div class="input-group flex-nowrap ms-0" style="width: 169px; margin-left: 29px; height: 147px;">
             <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
            </div>
-           <button type="button" class="btn ">Primary</button>
+           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><h6 >Done</h6></button>
+
+<div style="background-color: darkgreen; height: 700px; color: #fff;" class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <h5 style="font-size: 100px;" class="offcanvas-title" id="offcanvasBottomLabel">Congratulations Your order has been booked</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    ...
+  </div>
+</div>
         </div>
       </div>
     </div>
@@ -491,7 +504,26 @@
       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi praesentium laudantium impedit, soluta quidem voluptatem!.</p>
        <div class="contact-new d-flex">
       <div class="phone d-flex" style="flex-wrap:wrap;">
-        <a href=""><h5><i class="bi bi-telephone-forward pe-2"></i>PHONE </h5></a>
+        
+      <button style="width:120px ; background-color:transparent ; border-style: none;" class="btn m-0 d-flex p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="bi bi-telephone-forward pe-2"></i>PHONE</button>
+
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <div>
+      
+      <label>Enter First Number</label>
+      <input type="text" id="txt-1">
+      <label>Enter Second Number</label>
+      <input type="text" id="txt-2">
+      <label>The Result is:</label>
+      <button class="btn-danger"></button>
+  </div>
+    <button style="background-color:transparent ;" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    ...
+  </div>
+</div>
          <p style="font-size:15px ;">000999444</p>
       </div><!-- /.phone -->
       <div class="mailing d-flex " style="flex-wrap:wrap;">
@@ -502,7 +534,7 @@
     
     </div><!-- /.contact-new -->
     <div class="location">
-      <a href=""><h4><i class="bi bi-geo-alt pe-2"></i>LOCATION</h4></a>
+      <a href="https://www.google.com/maps/place/Quaid-e-Azam+Residency+Ziarat/@30.3788827,67.7238588,17z/data=!3m1!4b1!4m6!3m5!1s0x392d20764eef8369:0x1bcd25b95a77614!8m2!3d30.3788827!4d67.7260475!16s%2Fm%2F05pdgkb"><h4><i class="bi bi-geo-alt pe-2"></i>LOCATION</h4></a>
       <h6>xyz streett 456</h6>
     </div><!-- /.location -->
     </div>
