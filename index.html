@@ -476,24 +476,35 @@
           <div class="input-group flex-nowrap ms-0" style="width: 169px; margin-left: 29px; height: 147px;">
             <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
            </div>
-           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><h6 >Done</h6></button>
+           <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  done
+</button>
 
-<div style="background-color: darkgreen; height: 700px; color: #fff;" class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-  <div class="offcanvas-header">
-    <h5 style="font-size: 100px;" class="offcanvas-title" id="offcanvasBottomLabel">Congratulations Your order has been booked</h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="staticBackdropLabel">Successfull</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: green;" class="modal-body">
+       <h5>CONGRATULATIONS YOUR ORDER HAS BEEN DONE</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
   </div>
-  <div class="offcanvas-body small">
-    ...
-  </div>
+</div>
 </div>
         </div>
       </div>
     </div>
   </div>
 </div><!-- /.container-fluid -->
-</div><!-- /.col-md-6 -->
-
 <div class="col-md-6">
   <div class="container-fluid">
   <div class="card " style="width: 18rem; background-color: transparent; border-style: none;">
@@ -527,7 +538,42 @@
          <p style="font-size:15px ;">000999444</p>
       </div><!-- /.phone -->
       <div class="mailing d-flex " style="flex-wrap:wrap;">
-        <a href="https://mail.google.com/mail/u/0/#inbox"><h5><i class="bi bi-envelope pe-2"></i> EMAIL</h5></a>
+        
+        
+
+
+        
+        <button style="width:120px ; background-color:transparent ; border-style: none;" type="button" class="btn m-0" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap"><h5><i class="bi bi-envelope pe-2"></i> EMAIL</h5></button>
+        
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Recipient:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Message:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send message</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
          <p style="font-size:15px ;">abc@gmail.com</p>
       </div><!-- /.mailing -->
 
@@ -541,11 +587,17 @@
   </div>
 </div>
 </div><!-- /.col-md-6 -->
-  
+
+
+
 </div><!-- /.main-wrapper -->
+
+
+  
 </div><!-- /.row -->
-    </div><!-- /.container -->
-  </div><!-- /.contact-section -->
+</div><!-- /.container -->
+    </div><!-- /.contact-section -->
+  
 
   <div class="patient-openion pt-5 pb-5">
   <div class="container">
