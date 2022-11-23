@@ -1,7 +1,7 @@
 body{
     overflow:hidden;
     overflow-y: auto;
-    
+    width: fit-content!important;
 }
 
 
@@ -154,7 +154,7 @@ height: 76px;
     width: 602px;
     height: 178px;
     border-radius: 12px;
-    position: absolute;
+    
  }
  .routine-check-up-wrapper .images-section .sec-images{
     margin-top: 25px;
