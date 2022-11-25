@@ -178,6 +178,9 @@ height: 76px;
     
     bottom: 88px;
  }
+ .routine-check-up-wrapper .col-md-6 {
+   width: auto!important;
+}
  .routine-check-up-wrapper .col-md-6 .card{
     border-style: none;
     margin-top: 50px;
@@ -207,6 +210,7 @@ height: 76px;
  .social-links-section{
     background-color: rgb(241, 240, 240);
  }
+ 
 
  .social-links-section .new-card{
     margin-left: 243px;
@@ -215,14 +219,14 @@ height: 76px;
  .social-links-section .new-card h5:hover{
     color: aquamarine;
  }
- .new-img-sec img{
+ .social-links-section .new-img-sec img{
  height: 534px;
     margin-left: 30px;
     width: 633px;
     padding-top: 25px;
     border-radius: 34px;
  }
- .position-click{
+ .social-links-section .position-click{
     
     bottom: 30%;
     left: 48%;
@@ -231,14 +235,14 @@ height: 76px;
 }
     
  
- .position-click button{
+.social-links-section .position-click button{
     background-color: rgb(116, 245, 116);
     width: 142px;
     border-radius: 35px;
     height: 50px;
 
  }
- .position-click button:hover{
+ .social-links-section .position-click button:hover{
     
     border: 1px solid ;
     border-radius: 35px;
@@ -246,7 +250,12 @@ height: 76px;
     outline: 0;
  }
  .service-promotions .row .col-md-4{
-   width: 33.33%;
+   width: auto;
+   padding: 4px;
+}
+.service-promotions .row .col-md-4 .container-fluid{
+   
+   padding: 0px;
 }
  .service-promotions .text-sections h5{
     margin-left: 22rem;
@@ -283,7 +292,12 @@ height: 76px;
    margin-bottom: 103px;
 }
 .dr-team-members .row .col-md-4{
-   width: 33.33%;
+   width: auto;
+   padding: 0px;
+}
+.dr-team-members .row .col-md-4 .container-fluid{
+   
+   padding: 0px;
 }
  .dr-team-members .cards-sections{
    position: relative;
@@ -337,6 +351,10 @@ height: 76px;
   height: 639px;
    
 }
+.contact-section .col-md-6 {
+   width: auto;
+   padding: 0px;
+}
 .contact-section .col-md-6 .card{
    border-style: none;
    margin-top: 50px;
@@ -361,16 +379,19 @@ height: 76px;
    list-style-type: none;
 }
 .patient-openion .row .col-md-6{
-   width: auto;
+   width: auto; 
+   padding: 13px;
 }
 
 .publishment-article img{
    width: 286px;
    height: 186px;
    border-radius: 12px;
+
 }
-.publishment-article .row .col-md-4{
-   width: 33.33%;
+.publishment-article .col-md-4 {
+  width: auto;
+  padding: 6px;
 }
 .publishment-article .col-md-4 .card h6:hover{
    color: aquamarine;
