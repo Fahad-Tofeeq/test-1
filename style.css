@@ -150,6 +150,9 @@ height: 76px;
  .routine-check-up-wrapper {
     height: 522px;
  }
+ .routine-check-up-wrapper .row{
+   flex-wrap: nowrap;
+}
  .routine-check-up-wrapper .images-section .main-image img{
     width: 602px;
     height: 178px;
@@ -175,27 +178,27 @@ height: 76px;
     
     bottom: 88px;
  }
- .col-md-6 .card{
+ .routine-check-up-wrapper .col-md-6 .card{
     border-style: none;
     margin-top: 50px;
     width: 460px
  }
 
- .col-md-6 .card h2{
+ .routine-check-up-wrapper .col-md-6 .card h2{
     color: aquamarine;
  }
- .col-md-6 .card h3{
+ .routine-check-up-wrapper .col-md-6 .card h3{
     color: black;
  }
  
- .col-md-6 .card .card-body button{
+ .routine-check-up-wrapper .col-md-6 .card .card-body button{
     background-color: aquamarine;
     border-radius: 18px;
     width: 125px;
  }
  
  
- .col-md-6 .card button:hover{
+ .routine-check-up-wrapper .col-md-6 .card button:hover{
     border: 1px solid ;
     border-radius: 18px;
     
@@ -242,6 +245,9 @@ height: 76px;
     
     outline: 0;
  }
+ .service-promotions .row .col-md-4{
+   width: 33.33%;
+}
  .service-promotions .text-sections h5{
     margin-left: 22rem;
     margin-bottom: 14px!important;
@@ -275,6 +281,9 @@ height: 76px;
  .dr-team-members {
    background-color: rgb(121, 252, 252);
    margin-bottom: 103px;
+}
+.dr-team-members .row .col-md-4{
+   width: 33.33%;
 }
  .dr-team-members .cards-sections{
    position: relative;
@@ -325,8 +334,13 @@ height: 76px;
 }
 .contact-section{
    background-color: rgb(240, 238, 238);
-   height: 515px;
+  height: 639px;
    
+}
+.contact-section .col-md-6 .card{
+   border-style: none;
+   margin-top: 50px;
+   width: 460px
 }
 .contact-section input{
    background-color:rgb(241, 239, 239) ;
@@ -346,13 +360,18 @@ height: 76px;
 .patient-openion ul li{
    list-style-type: none;
 }
+.patient-openion .row .col-md-6{
+   width: auto;
+}
 
 .publishment-article img{
    width: 286px;
    height: 186px;
    border-radius: 12px;
 }
-
+.publishment-article .row .col-md-4{
+   width: 33.33%;
+}
 .publishment-article .col-md-4 .card h6:hover{
    color: aquamarine;
 }
@@ -380,6 +399,10 @@ footer .footer ul li{
 }
 footer .footer ul li:hover{
    color: #222;
+}
+footer .footer .row .col-md-3 {
+   width:25% ;
+   
 }
 footer .footer .col-md-3 .card{
    border-radius: 12px;
